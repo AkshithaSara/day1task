@@ -1,0 +1,2 @@
+Write a blog about objects and its internal representation in Javascript?
+	In JavaScript, an object is a complex data type that allows you to store and organize data in a structured manner. Unlike simple data types such as numbers and strings, objects can store multiple values and are 	often used to group related data together. You can think of objects as collections of key-value pairs, where each key is a unique identifier (a string), and each value can be of any data type, including other objects.

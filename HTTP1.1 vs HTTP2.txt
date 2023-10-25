@@ -1,0 +1,5 @@
+Difference between HTTP 1.1 vs HTTP 2?
+	(i).HTTP1.1: In HTTP1.1, requests and responses are processed sequentially. Each request requires a new connection to the server, and the server sends 	             back responses in the order the requests were received. This can result in head-of-line blocking, where a slow request can delay 		     	     other requests in the queue.
+    	   HTTP/2: HTTP2 introduced multiplexing, which allows multiple requests and responses to be sent and received concurrently over a single connection. 		   This eliminates head-of-line blocking and improves the overall efficiency of data transfer.
+	(ii).HTTP1.1: Headers are sent as plain text, which can be quite verbose and add significant overhead to each request and response.
+     	     HTTP/2: HTTP/2 uses header compression, which reduces the size of headers, making requests and responses more efficient in terms of data 		             transfer.
